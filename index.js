@@ -24,7 +24,7 @@ async function run() {
         })
 
     } catch (e) {
-        core.setFailed(e.message)
+        core.setFailed(JSON.stringify(e, null, 4))
     }
 }
 
