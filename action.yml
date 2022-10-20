@@ -18,7 +18,7 @@ inputs:
     default: 'Merged {source_ref} into {target_branch}.'
 runs:
   using: 'node12'
-  main: 'dist/index.js'
+  main: 'index.js'
 branding:
   icon: git-merge
   color: green
